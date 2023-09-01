@@ -1,0 +1,174 @@
+layout: {qmk_keyboard: jorne/rev1}
+layers:
+  default:
+  - {t: ']', h: ⌘}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '['
+  - {t: '`', h: ⌃}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: '''', h: ⌃}
+  - {t: '-', h: ⌥}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: \, h: ⎇}
+  - {t: ↹, h: raise}
+  - {t: ␣, h: ⇧}
+  - {t: ⏎, h: lower}
+  - {t: ⎋, h: lower}
+  - {t: ⌫, h: ⇧}
+  - {t: ⌦, h: raise}
+  lower:
+  - {t: F1, h: ⌘}
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: +, h: ⌃}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - {t: '-', h: ⌃}
+  - {t: '=', h: ⌥}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ⎇
+  - {t: ↹, h: adjust}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ⌦, h: adjust}
+  raise:
+  - {t: KP NUM, h: ⌘}
+  - KP SLASH
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
+  - Vol Up
+  - ↖
+  - ⎙
+  - ⇞
+  - SLCK
+  - CLCK
+  - {t: '=', h: ⌃}
+  - KP MULTIPLY
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - MUTE
+  - ←
+  - ↑
+  - →
+  - Insert
+  - {t: APP, h: ⌃}
+  - ⌥
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP DOT
+  - Vol Down
+  - ↘
+  - ↓
+  - ⇟
+  - Pause Break
+  - ⎇
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ⏎, h: adjust}
+  - {t: ⎋, h: adjust}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  adjust:
+  - Boot
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Boot
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - BT 5
+  - BT 4
+  - BT 3
+  - BT 2
+  - BT 1
+  - BT CLR
+  - Reset
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Reset
+  - {type: held}
+  - ''
+  - {type: held}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
